@@ -1,0 +1,118 @@
+
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #252249;
+    font-family: 'Segoe UI', Arial, Helvetica, sans-serif;
+}
+
+
+.dive {
+    background-color: #ffffff;
+    width: 480px;
+    max-width: 90%;
+    padding: 40px 35px;
+    border-radius: 12px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.35);
+    text-align: center;
+}
+
+.dive2 {
+    background-color: #ffffff;
+    width: 420px;
+    max-width: 90%;
+    padding: 50px 35px;
+    border-radius: 12px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.35);
+    text-align: center;
+}
+
+h1 {
+    font-size: 20px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    color: #1c1c3a;
+    margin-bottom: 8px;
+}
+
+h2 {
+    font-size: 14px;
+    letter-spacing: 0.5px;
+    text-transform: uppercase;
+    color: #1c1c3a;
+    font-weight: 600;
+    margin: 8px 0;
+}
+
+p {
+    font-size: 13px;
+    color: #555;
+    margin: 6px 0;
+}
+
+hr {
+    border: none;
+    border-top: 1px solid #e0e0e0;
+    margin: 10px 0;
+}
+
+label {
+    display: inline-block;
+    width: 140px;
+    text-align: right;
+    padding-right: 12px;
+    font-size: 13px;
+    font-weight: 600;
+    color: #1c1c3a;
+    vertical-align: middle;
+}
+
+input {
+    width: 230px;
+    padding: 8px 10px;
+    border: 1px solid #c9c9d6;
+    border-radius: 6px;
+    font-size: 13px;
+    color: #333;
+    vertical-align: middle;
+    outline: none;
+}
+
+input:focus {
+    border-color: #4aa8ff;
+    box-shadow: 0 0 0 2px rgba(74, 168, 255, 0.25);
+}
+
+button {
+    margin-top: 20px;
+    background-color: #014380;
+    color: #ffffff;
+    border: none;
+    padding: 12px 28px;
+    border-radius: 20px;
+    font-size: 14px;
+    font-weight: 600;
+    cursor: pointer;
+    transition: background-color 0.2s ease-in-out;
+}
+
+button:hover {
+    background-color: #2f8ee0;
+}
+
+a {
+    text-decoration: none;
+}
+
+.dive2 img {
+    max-width: 160px;
+    margin: 10px 0 20px 0;
+}
